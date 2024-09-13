@@ -1,0 +1,71 @@
+body{
+    background: rgb(3, 17, 97);
+    color: rgb(45, 45, 45);
+    padding: 10px;
+    font-family: verdana;
+}
+#all-contents {
+    max-width: 800px;
+    margin: auto;
+}
+/* navigation menu */
+nav {
+    background: rgb(41, 127, 239);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    flex: 1;
+    margin: 0;
+}
+#nav-ul {
+    list-style-image: none;
+}
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+    transition: font-weight 0.25s;
+}
+.nav-li:hover{
+    font-weight: bold;
+    transition: 0.25s;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+/* main container area beneath menu */
+main {
+    background: rgb(188, 217, 245);
+    display: flex;
+    border: solid rgb(188,217,245);
+    border-radius: 10px;    
+}
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+.sidebar-img {
+    width: 400px;
+    border: solid;
+    border-radius: 10px;
+}
+.content{
+    flex: 1;
+    padding: 15px;
+}
+/* Portfolia styles */
+#interests {
+    border: solid 4px silver ridge;
+    padding: 8px;
+    border-radius: 10px;
+}
+h2, h3{
+    margin: 0px;
+}
